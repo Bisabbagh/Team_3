@@ -10,7 +10,7 @@
     
     <fieldset>
         <legend>form</legend>
-    <form>
+    <form action="form" method="post">
         <label> first name: </label><br>
         <input type="text"><br>
         <label> last name : </label><br>
@@ -44,7 +44,7 @@
         </select>
         <br>
         <br>
-        <label> Uplod image:</label>
+        <label for="fff"> Uplod image:</label>
         <input type="file" id="fff" name="my file">
         <br>
         <br>
@@ -60,21 +60,71 @@
         <input type="submit" value="send">
     </form>
 </fieldset>
+<br>
 <form>
-    <field>
-        <label for="try">
-            sseee
-        </label>
-        <input type="text">
-    </field><br>
-    <field>
-        <label for="try">
-            eedde
-        </label>
-        <input type="text">
-    </field>
-</form>
+    <table>
+        <tr>
+            <td><label for="name"> Name:</label></td>
+            <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <td><label for="address"> address:</label></td>
+            <td><input type="text" id="address"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="city">City:</label>
 
+            </td>
+            <td>
+                <input type="text" id="city">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="state">State:</label>
+            </td>
+            <td>
+                <input type="text" id="state">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="zip">Zip:</label>
+            </td>
+            <td>
+                <input type="text" id="zip">
+            </td>
+
+        </tr>
+        <tr>
+            <td> <label for="mag">Magazine</label></td>
+            <td>
+                <select id="mag">
+                    <option value="1">Newsweek</option>
+                    <option value="2">Newsdaily</option>
+                    <option value="3">Newsmonthly</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td> <lable for="subs">Subscribtion </lable></td>
+            <td> <input type="radio" name="subs" id="1year"><label for="1year">1year</label>
+            <input type="radio" name="subs" id="2year"><label for="2year">2year</label>
+            
+            </td>
+            
+
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Send Your Order">
+            </td>
+        </tr>
+
+
+    </table>
+</form>
 
 
 
