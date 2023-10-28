@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+nav{
+    background-color: rgb(226, 223, 223);
+    height: 35px;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+}
+label.logg{
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 9px;
+    font-weight: 600;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    font-size: 15px;
+    line-height: 30px; 
+
+} 
+ nav ul li{
+    display: inline;
+ }
+ form{
+    align-items: center;
+    margin-top: 20%;
+    margin-left: 35%;
+ }
+ input{
+    padding: 0.5em 2em;
+    border: 1px solid rgba(133, 133, 133, 0.459);
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.2em;
+ }
+ .b{
+    margin-top: 30px;
+    width: 315px;
+    color: white;
+    background-color: rgba(106, 179, 232, 0.97);
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+    font-weight: bold;
+ }
+ label{
+    
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.555);
+ }
