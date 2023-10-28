@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    margin: 0;
+}
+.main{
+    display: flex;
+    color: white;
+}
+
+.main * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.orange_div{
+    background-color: orange;
+}
+
+.blue_div{
+    background-color: blue;
+}
+
+@media screen and (max-width: 768px) {
+    .main{
+        flex-wrap: wrap;
+    }
+
+    .main * {
+        height: 50vh;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="orange_div"><h1>First Part</h1></div>
+        <div class="blue_div"><h1>Second Part</h1></div>
+      </div>
+    
+</body>
+</html>
